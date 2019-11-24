@@ -1,0 +1,23 @@
+﻿<Window x:Class="BuddyApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuddyApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Sanya" HorizontalAlignment="Left" Margin="70,33,0,0" Text="0" TextChanged="TextBox_TextChanged" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Sergei" HorizontalAlignment="Left" Margin="70,73,0,0" Text="0" TextChanged="TextBox_TextChanged" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Roman" HorizontalAlignment="Left" Margin="70,113,0,0" Text="0" TextChanged="TextBox_TextChanged" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Igor" HorizontalAlignment="Left" Margin="292,48,0,0" Text="0" TextChanged="TextBox_TextChanged" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Vova" HorizontalAlignment="Left" Margin="292,88,0,0" Text="0" TextChanged="TextBox_TextChanged" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Sanya" HorizontalAlignment="Left" Margin="27,29,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sergei" HorizontalAlignment="Left" Margin="26,69,0,0" VerticalAlignment="Top"/>
+        <Label Content="Roman" HorizontalAlignment="Left" Margin="22,109,0,0" VerticalAlignment="Top"/>
+        <Label Content="Igor" HorizontalAlignment="Left" Margin="417,44,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vova" HorizontalAlignment="Left" Margin="420,84,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Spend" Content="Sum" HorizontalAlignment="Left" Margin="220,66,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
